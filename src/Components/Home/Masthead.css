@@ -1,0 +1,112 @@
+.minimal-hero {
+  padding: 140px 20px 100px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #1d1d1d;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #444;
+  max-width: 600px;
+  margin: 0 auto 50px;
+  line-height: 1.7;
+}
+
+.sign-strip {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.sign-strip img {
+  width: 110px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: contain;
+  background: #f7f7f7;
+  padding: 12px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+}
+
+.sign-strip img:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background: #0084ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.25s ease;
+}
+
+.hero-btn:hover {
+  background: #006fd1;
+}
+/* ====== Playful Pink-Violet Hero Section ====== */
+
+.hero-section {
+  width: 100%;
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #F8C8DC 0%, #C6A7FF 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
+/* Left Text */
+.hero-text-box {
+  max-width: 50%;
+  padding-left: 3rem;
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #4A266A;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: #4A266A;
+  opacity: 0.9;
+}
+
+/* Right Image Grid */
+.hero-images {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  gap: 20px;
+  padding-right: 3rem;
+}
+
+.hero-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 1rem;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.25s ease;
+}
+
+.hero-img:hover {
+  transform: scale(1.06);
+}
